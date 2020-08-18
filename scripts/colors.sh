@@ -86,13 +86,13 @@ $LAUNCH2 &
 
 elif  [[ $1 = "-mode6" ]]; then
 # Replacing colors
-sed -i -e 's/bg = .*/bg = #8c003C3C/g' $PDIR/colors.ini
-sed -i -e 's/fg = .*/fg = #CFCFCF/g' $PDIR/colors.ini
+sed -i -e 's/bg = .*/bg = #07001D/g' $PDIR/colors.ini
+sed -i -e 's/fg = .*/fg = #f5f5f5/g' $PDIR/colors.ini
 sed -i -e 's/ac = .*/ac = #d26273/g' $PDIR/colors.ini
 sed -i -e 's/bi = .*/bi = #dc085F5F/g' $PDIR/colors.ini
 sed -i -e 's/be = .*/be = #dc085F5F/g' $PDIR/colors.ini
-sed -i -e 's/mb = .*/mb = #003C3C/g' $PDIR/colors.ini
-sed -i -e 's/mgf = .*/mgf = #003C3C/g' $PDIR/colors.ini
+sed -i -e 's/mb = .*/mb = #23014E/g' $PDIR/colors.ini
+sed -i -e 's/mgf = .*/mgf = #23014E/g' $PDIR/colors.ini
 sed -i -e 's/mf = .*/mf = #00acc1/g' $PDIR/colors.ini
 # Restarting polybar
 $LAUNCH1 &
